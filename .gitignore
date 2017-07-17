@@ -9,5 +9,8 @@ reports/
 docker_compose/
 data/
 
+# dist
+lib/
+
 # dot file
 .DS_Store
