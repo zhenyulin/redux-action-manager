@@ -1,20 +1,25 @@
 import {
-	defaultAction,
-	asyncActionNames,
-	defaultAsyncActions,
-	actionBundle,
-	asyncActionBundle
-} from 'src/creator';
+  defaultAction,
+  asyncActionNames,
+  defaultAsyncActions,
+  actionBundle,
+  asyncActionBundle,
+} from './src/creator';
 
 import {
-	immutableAsyncReducers
-} from 'src/reducer';
+  immutableAsyncReducers,
+} from './src/reducer';
+
+import {
+  ASYNC,
+} from './src/constant';
 
 export default {
-	defaultAction,
-	asyncActionNames,
-	defaultAsyncActions,
-	actionBundle,
-	asyncActionBundle,
-	immutableAsyncReducers
+  defaultAction,
+  asyncActionNames,
+  defaultAsyncActions,
+  actionBundle,
+  asyncActionBundle,
+  immutableAsyncReducers,
+  ASYNC,
 };
